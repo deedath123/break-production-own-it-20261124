@@ -1,6 +1,11 @@
 """Break Production, Own It — make.fun entry.
 
 The agent's own postmortem line, printed right after breaking production.
+
+Verified numbers (2026-11-24): entry is 132 chars, single line, no trailing
+newline; entry.txt sha256 is
+256ee66dc04774e514dfa65a017ed6fa8b2cc87864762441d2f7647304a2e2db;
+verified byte-identical across 4 runs (3 normal + 1 clean env).
 """
 
 import os
